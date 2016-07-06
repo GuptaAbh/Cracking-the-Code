@@ -20,6 +20,7 @@ public class IsUniqueString {
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your String");
+        
         String s = sc.next();        
         if(isUnique(s)==true){
             System.out.println("This is not a Unique String");
